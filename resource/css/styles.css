@@ -236,6 +236,7 @@ body{
 	font-family: "YakuHanJP", "ヒラギノ角ゴ Pro W3", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,"メイリオ","ＭＳ Ｐゴシック",sans-serif;
 	letter-spacing: 0.06em;
 	height: 100%;
+	position: relative;
 }
 [lang="en"] body{
 	font-family: "Arial", "YakuHanJP", "ヒラギノ角ゴ Pro W3", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic Pro", "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic,"メイリオ","ＭＳ Ｐゴシック",sans-serif;
@@ -1015,6 +1016,11 @@ label{
 		font-size: 14px;
 		margin-bottom: 10px;
 	}
+}
+/*---------------------------------*/
+canvas {
+	position: absolute;
+	top: calc(50% - 150px);
 }
 /*---------------------------------*/
 .portfolio-home {
