@@ -307,7 +307,25 @@ sup {
 
 /* 1-2. #l-header
 -------------------------------------------------- */
+#l-header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+.l-header__inner {
+	padding: 20px 0;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
 
+}
+.l-header__center {
+	margin-left: auto;
+}
+.l-header__right {
+	margin-left: auto;
+}
 
 /* 1-3. #l-container
 -------------------------------------------------- */
