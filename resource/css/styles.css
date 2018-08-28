@@ -257,7 +257,7 @@ input,textarea,button,select{
 }
 
 a{
-	color: #0075c2;				/* ベースのリンク文字の色を指定 */
+	/*color: #0075c2;				 ベースのリンク文字の色を指定 */
 	text-decoration: none;	/* ベースのリンク文字の下線の有無を指定 */
 	transition: all .3s;
 }
@@ -322,6 +322,16 @@ sup {
 }
 .l-header__center {
 	margin-left: auto;
+}
+.l-header__center > a {
+	color: #000;
+}
+.l-header__center > a:hover {
+	text-decoration: none;
+}
+.l-header__center > a:hover > .l-header__name {
+	transition: all .3s;
+	transform: scale(1.2);
 }
 .l-header__right {
 	margin-left: auto;
