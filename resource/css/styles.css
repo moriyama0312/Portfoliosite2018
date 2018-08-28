@@ -407,8 +407,28 @@ sup {
 	left: 0;
 	right: 0;
 }
+#overwrp-menu.opened .overwrp-menu__inner {
+	height: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+}
+#overwrp-menu.opened .overwrp-menu__lst-content {
+}
 #overwrp-menu.opened .overwrp-menu__lst-content > li {
 	color: #f9f8ea;
+	text-align: center;
+	font-size: 64px;
+	padding: 20px 0;
+}
+#overwrp-menu.opened .overwrp-menu__lst-content > li:first-child {
+	padding-top: 0;
+}
+#overwrp-menu.opened .overwrp-menu__lst-content > li:last-child {
+	padding-bottom: 0;
 }
 
 /* 1-3. #l-container
