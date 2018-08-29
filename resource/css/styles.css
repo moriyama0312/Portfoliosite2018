@@ -406,9 +406,11 @@ sup {
 	bottom: 0;
 	left: 0;
 	right: 0;
+	z-index: 99;
 }
 #overwrp-menu.opened .overwrp-menu__inner {
 	height: 100%;
+	padding: 0 20px;
 	display: -webkit-flex;
 	display: flex;
 	-webkit-justify-content: center;
@@ -419,7 +421,6 @@ sup {
 #overwrp-menu.opened .overwrp-menu__lst-content {
 }
 #overwrp-menu.opened .overwrp-menu__lst-content > li {
-	color: #f9f8ea;
 	text-align: center;
 	font-size: 64px;
 	padding: 20px 0;
@@ -429,6 +430,22 @@ sup {
 }
 #overwrp-menu.opened .overwrp-menu__lst-content > li:last-child {
 	padding-bottom: 0;
+}
+#overwrp-menu.opened .overwrp-menu__lst-content > li > a {
+	color: #f9f8ea;
+	position: relative;
+	height: 100%;
+	display: block;
+}
+#overwrp-menu.opened .overwrp-menu__lst-content > li > a:hover {
+	text-decoration: none;
+}
+#overwrp-menu.opened .overwrp-menu__lst-content > li > a:hover:after {
+	position: absolute;
+	width: 100%;
+	height: 4px;
+	display: block;
+	background: #f9f8ea;
 }
 
 /* 1-3. #l-container
@@ -1143,6 +1160,7 @@ label{
 canvas {
 	position: absolute;
 	top: calc(50% - 150px);
+	z-index: -10;
 }
 /*---------------------------------*/
 .portfolio-home {
