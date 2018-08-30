@@ -473,6 +473,15 @@ sup {
 /* 2-1. Component a.k.a Module
 -------------------------------------------------- */
 /*2-1-1.  Wrap     [wrp-***]*/
+.wrp-container {
+	width: 100%;
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.wrp-grid {
+	display: -webkit-flex;
+	display: flex;
+}
 
 /*2-1-2.  Box      [box-***]*/
 
@@ -782,6 +791,34 @@ label{
 .no-selector:before,
 .no-selector:after {
 	content: none !important;
+}
+.jc-center {
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+.jc-end {
+	-webkit-justify-content: flex-end;
+	justify-content: flex-end;
+}
+.jc-even {
+	-webkit-justify-content: space-evenly;
+	justify-content: space-evenly;
+}
+.jc-bet {
+	-webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+.grid-cell {
+	flex: 1;
+}
+.twice {
+	flex: 2;
+}
+.thrice {
+	flex: 3;
+}
+.four-times {
+	flex: 4;
 }
 
 /* 2-2-4. Grid System [grid-***] */
