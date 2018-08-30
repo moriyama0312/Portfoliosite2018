@@ -743,6 +743,10 @@ label{
 }
 
 /*2-2-3. Object-Oriented CSS [OOCSS]*/
+.fluid-image {
+	max-width: 100%;
+	height: auto;
+}
 .txt-br {
 	display: inline-block;
 }
