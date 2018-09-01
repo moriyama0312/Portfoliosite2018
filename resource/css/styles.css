@@ -1205,13 +1205,20 @@ canvas {
 	z-index: -10;
 }
 /*---------------------------------*/
-.portfolio-home {
-	display: -webkit-flex;
-	display: flex;
-	-webkit-justify-content: center;
-	justify-content: center;
-	-wekit-align-items: center;
-	align-items: center;
+.portfolio-home .l-document,
+.portfolio-home .l-container {
+	height: 100%;
+}
+.portfolio-home .l-document {
+	position: relative;
+}
+.portfolio-home .home-ttl {
+	position: absolute;
+	top: 50%;
+	right: 0;
+	left: 0;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 .portfolio-home h1 {
 	text-align: center;

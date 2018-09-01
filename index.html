@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja" prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
 <head>
@@ -19,11 +18,15 @@
 	<script src="/resource/js/scripts.js"></script>
 </head>
 <body class="portfolio portfolio-home">
-	<?php include( $_SERVER['DOCUMENT_ROOT'] . '/resource/include/l-header.html'); ?>
-	<canvas id="wave"></canvas>
-	<div class="wrp-container fadeInUp">
-		<h1 class="fadeInUp"><span>Moriyama Masataka</span><br>Portfolio</h1>
-	</div>	
+	<div class="l-document">
+		<?php include( $_SERVER['DOCUMENT_ROOT'] . '/resource/include/l-header.html'); ?>
+		<div class="l-container">
+			<canvas id="wave"></canvas>
+			<div class="wrp-container fadeInUp home-ttl">
+				<h1 class="fadeInUp"><span>Moriyama Masataka</span><br>Portfolio</h1>
+			</div>
+		</div>
+	</div>
 	<script src="/resource/js/canvas.js"></script>
 </body>
 </html>
