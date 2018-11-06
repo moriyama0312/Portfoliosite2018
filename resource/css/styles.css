@@ -1228,6 +1228,9 @@ canvas {
 	font-size: 25%;
 }
 /*---------------------------------*/
+.portfolio-about .l-container {
+	margin-top: 11%;
+}
 .portfolio-about .grid-cell__inner {
 	padding: 0 20px;
 }
@@ -1236,11 +1239,19 @@ canvas {
 }
 .portfolio-about .grid-cell__img > h1 {
 	position: absolute;
-	top: 0;
+	top: -122px;
+	right: 50%;
+	-webkit-transform: translateX(50%);
+	transform: translateX(50%);
+	font-size: 62px;
+	color: rgba(0, 0, 0, .5);
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
 }
 .portfolio-about .grid-cell__img > img {
 	width: 50%;
 	float: right;
+	box-shadow: 2px 2px 4px grey;
 }
 
 
