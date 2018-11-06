@@ -1227,7 +1227,21 @@ canvas {
 .portfolio-home h1 span {
 	font-size: 25%;
 }
-
+/*---------------------------------*/
+.portfolio-about .grid-cell__inner {
+	padding: 0 20px;
+}
+.portfolio-about .grid-cell__img {
+	position: relative;
+}
+.portfolio-about .grid-cell__img > h1 {
+	position: absolute;
+	top: 0;
+}
+.portfolio-about .grid-cell__img > img {
+	width: 50%;
+	float: right;
+}
 
 
 
